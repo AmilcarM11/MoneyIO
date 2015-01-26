@@ -1,0 +1,33 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="itemCardStyle">@style/CardItem</item>
+    </style>
+
+    <style name="Selectable" parent="AppTheme">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/selectable</item>
+    </style>
+    <style name="Selectable.Title" parent="Selectable">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CardItem" parent="CardView.Light">
+        <item name="cardCornerRadius">4dp</item>
+    </style>
+
+
+    <style name="Holo.ButtonBar" parent="android:ButtonBar">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="divider">?android:attr/dividerVertical</item>
+        <item name="showDividers">middle</item>"
+        <item name="dividerPadding">8dip</item>
+
+    </style>
+
+</resources>

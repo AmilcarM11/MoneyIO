@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="ifRoom" />
+
+    <!-- When we have the need to add more buttons: uncomment this, delete action_refresh from above.
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_overflow"
+        app:showAsAction="always" >
+
+        <menu>
+            <item android:id="@+id/action_refresh"
+                android:icon="@drawable/ic_action_refresh"
+                android:title="@string/action_refresh"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+    -->
+</menu>

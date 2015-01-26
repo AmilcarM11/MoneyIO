@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Registro de Ingresos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Opciones</string>
+    <string name="action_add">Agregar Rubro</string>
+    <string name="action_refresh">Refrescar</string>
+    <string name="rubro">Rubro</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="registro">Registro</string>
+    <string name="rubro_create">Crear Rubro</string>
+    <string name="cuenta_create">Crear Cuenta</string>
+    <string name="registro_create">Crear Registro</string>
+    <string name="rubro_edit">Editar Rubro</string>
+    <string name="cuenta_edit">Editar Cuenta</string>
+    <string name="registro_edit">Editar Registro</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="options">Opciones</string>
+    <string name="rubro_nombre_dummy">Nombre del Rubro</string>
+    <string name="rubro_monto_dummy">$ 11,999,999.99 - Dos semillones</string>
+    <string name="rubro_description_dummy">Descripción del Rubro</string>
+    <string name="cuenta_nombre_dummy">Nombre de la Cuenta</string>
+    <string name="cuenta_rubro_dummy">Nombre del Rubro</string>
+    <string name="cuenta_naturaleza_dummy">Ingresos</string>
+    <string name="cuenta_monto_dummy">$ 0.01</string>
+    <string name="cuenta_nature_dummy">Ingresos</string>
+    <string name="cuenta_description_dummy">Descripción de la Cuenta</string>
+    <string name="registro_descripcion_dummy">Descripción del Registro</string>
+    <string name="registro_date_dummy">07/01/2015</string>
+    <string name="registro_monto_dummy">$ 25.00</string>
+    <string name="rubro_cantidad_dummy">12 cuentas</string>
+    <string name="title_activity_edit_rubro">Editar Rubro</string>
+    <string name="title_activity_edit_cuenta">Editar Cuenta</string>
+    <string name="title_activity_edit_registro">Editar Registro</string>
+    <string name="action_accept">Aceptar</string>
+
+</resources>

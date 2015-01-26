@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="itemCardStyle" format="reference"/>
+
+    <attr name="buttonAction" format="integer" default="options">
+        <enum name="options" value="0" />
+        <enum name="remove" value="1" />
+    </attr>
+
+
+    <declare-styleable name="RubroCardView">
+        <attr name="buttonAction" />
+    </declare-styleable>
+
+    <declare-styleable name="CuentaCardView">
+        <attr name="buttonAction" />
+    </declare-styleable>
+
+    <declare-styleable name="RegistroCardView">
+
+    </declare-styleable>
+
+</resources>

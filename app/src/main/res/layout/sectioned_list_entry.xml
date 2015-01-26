@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp">
+
+    <TextView
+        android:id="@+id/entry_separator"
+        android:text="PRODUCTOS APÍCOLAS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#666666"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/entry_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/entry_title"
+            android:text="Compra de Fondos y Tapaderas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="2dp"
+            android:textSize="16sp"
+            android:textColor="#222222"/>
+
+        <TextView
+            android:id="@+id/entry_description"
+            android:text="La descripción de la cuenta puede ser algo grande. Como dos lineas, o quizás tres lineas. Uno nunca sabe estos días."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="4dp"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+</LinearLayout>
